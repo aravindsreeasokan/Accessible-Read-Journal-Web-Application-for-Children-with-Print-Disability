@@ -36,7 +36,7 @@
     const captureButton = document.getElementById('capture-button');
     const ocrResult = document.getElementById('ocr-result');
 
-    const apiKey = 'AIzaSyCBoO8cdangwvhzIJI3l68xt5U2cVC0gnU';  // Replace with your Google Vision API Key
+    const apiKey = ;  // Replace with your Google Vision API Key
 
     // Access the camera
     navigator.mediaDevices.getUserMedia({ video: { width: 1280, height: 720 } })

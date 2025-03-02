@@ -90,7 +90,7 @@ function uploadFileAndGenerateContent($apiKey, $filePath) {
 
 // Handle file upload and content generation
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['image'])) {
-    $apiKey = "AIzaSyCBoO8cdangwvhzIJI3l68xt5U2cVC0gnU"; // Replace with your actual API key
+    $apiKey = ""; // Replace with your actual API key
     $filePath = $_FILES['image']['tmp_name'];
 
     try {

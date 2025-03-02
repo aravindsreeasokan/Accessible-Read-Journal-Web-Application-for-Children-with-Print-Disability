@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Replace with your actual API key
-API_KEY="AIzaSyCBoO8cdangwvhzIJI3l68xt5U2cVC0gnU"
+API_KEY=""
 
 # Path to the image file you want to upload
 IMAGE_FILE="C:\Users\aravi\Downloads\81D3fg+n7RL._SY522_.jpg"

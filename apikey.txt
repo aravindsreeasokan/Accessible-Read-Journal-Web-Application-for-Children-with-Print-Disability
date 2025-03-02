@@ -1,4 +1,4 @@
-API_KEY="AIzaSyCBoO8cdangwvhzIJI3l68xt5U2cVC0gnU"
+API_KEY=""
 
 # Adjust safety settings in generationConfig below.
 # See https://ai.google.dev/gemini-api/docs/safety-settings

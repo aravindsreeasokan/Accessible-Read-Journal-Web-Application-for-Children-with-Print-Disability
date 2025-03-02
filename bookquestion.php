@@ -1,7 +1,7 @@
 <?php
 
 function generateBookQuestion($bookTitle,$authorname) {
-    $apiKey = 'AIzaSyCBoO8cdangwvhzIJI3l68xt5U2cVC0gnU'; // Replace with your API key
+    $apiKey = ''; // Replace with your API key
     $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" . $apiKey;
     $prompt = "You are tasked with generating a unique and valid quiz question based on the book titled '" . $bookTitle . "' written by '" . $authorname . "'. Please create a different, fact-based question about the book, followed by four distinct answer options, with only one being correct. Ensure the correct option is accurate, and avoid repeating questions or answers.
 

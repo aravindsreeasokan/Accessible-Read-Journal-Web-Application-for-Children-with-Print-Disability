@@ -1,7 +1,7 @@
 <?php
 
 // Your API key
-$apiKey = 'AIzaSyCBoO8cdangwvhzIJI3l68xt5U2cVC0gnU';
+$apiKey = '';
 
 // API endpoint
 $url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' . $apiKey;
