@@ -2,7 +2,7 @@
 
 function generateBookReview($bookTitle) {
     // Define the API URL and key
-    $apiKey = 'AIzaSyBkocS8BEzv1r0PqZhq96hk0Aajv5lVIUs'; // Replace with your API key
+    $apiKey = 'APi'; // Replace with your API key
     $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" . $apiKey;
 
     // The starting prompt
