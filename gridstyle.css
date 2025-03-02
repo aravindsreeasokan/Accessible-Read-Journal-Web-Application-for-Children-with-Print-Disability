@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.caption {
+    padding: 10px;
+    text-align: center;
+}
+.rate {
+    color: gold;
+}
+.product_name,.author_name,.category,.language{
+    font-size: 9px;
+    margin: 10px 0;
+}
+.price {
+    color: #333;
+    font-weight: bold;
+    margin: 2px 0;
+}
+.add {
+    padding: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+}

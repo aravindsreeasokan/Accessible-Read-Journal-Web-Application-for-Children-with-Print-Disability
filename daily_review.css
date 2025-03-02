@@ -1,0 +1,293 @@
+/* General container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h5 {
+    
+    color: #333;
+    /*text-align: center;*/
+    margin-bottom: 10px;
+}
+
+/* Form field styles */
+label {
+    font-size: .5rem;
+    color: #555;
+}
+
+/* Page number input */
+.page input[type="number"] {
+    width: 100px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Text area for review (smaller size) */
+textarea {
+    width: 100%;
+    height: 60px; /* Reduced height *//* Slightly reduced padding */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 0.875rem; /* Smaller font size */
+    resize: none;
+    margin-top: 10px;
+}
+
+/* Button styling (smaller size) */
+input[type="submit"], .btn {
+    padding: 8px 8px; /* Reduced padding */
+    border-radius: 4px; /* Smaller border radius */
+    font-size: 0.875rem; /* Smaller font size */
+}
+
+/* Secondary button (Modify Review) */
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Primary button (Submit Review) */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Button hover effects */
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Spacing between buttons */
+input[type="submit"] + input[type="submit"] {
+    margin-left: 10px;
+}
+
+/* Review text area spacing */
+.review {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Page input spacing */
+.page {
+    margin-bottom: 20px;
+}
+
+/* Previous reviews section */
+.previous-reviews {
+    margin-top: 30px;
+}
+
+.previous-reviews h3 {
+    font-size: 110px;
+    font-weight: 60;
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+/* List of reviews */
+ul.list-group {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.list-group li {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+ul.list-group li:hover {
+    transform: translateY(-5px);
+}
+
+ul.list-group li strong {
+    font-weight: 500;
+    color: #007bff;
+}
+
+ul.list-group li small {
+    display: block;
+    margin-top: 7px;
+    color: #6c757d;
+    font-size: 12px;
+}
+
+/* Form styling */
+form {
+    margin-top: px;
+}
+
+.form-label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    margin-bottom: 10px;
+}
+
+/* Button hover effects */
+input[type="submit"] + input[type="submit"] {
+    margin-left: 10px;
+}
+
+/* Review text area spacing */
+.review {
+    margin-top: 20px;
+}
+
+/* Page input spacing */
+.page {
+    margin-bottom: 10px;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] + input[type="submit"] {
+        margin-left: 0;
+    }
+}
+
+/* Container styling */
+
+h3 {
+    font-size: 0.9rem;
+}
+
+.form-label {
+    font-size: 0.7rem;
+    margin-top: 2px;
+}
+
+input[type="number"],
+textarea {
+    font-size: 0.75rem;
+}
+
+textarea {
+    min-height: 40px;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+    width: 70%; /* Reduce the textarea width */
+}
+
+.btn {
+    font-size: 0.7rem;
+    padding: 0px 0px;
+}
+
+.list-group-item {
+    margin-bottom: 2px;
+    font-size: 0.8rem;
+}
+
+.list-group-item small {
+    font-size: 0.7rem;
+}
+
+.scrollable-reviews {
+    max-height: 210px;
+    overflow-y: auto;
+}
+
+.container {
+    padding: 12px;
+}
+
+.page,
+.review {
+    margin-bottom: 20px;
+}
+
+.review-area {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+}
+
+.review-area textarea {
+    flex-grow: 1;
+}
+
+.review-buttons {
+    margin-left: 10px; /* Space between textarea and buttons */
+    display: flex;
+    flex-direction: column; /* Stack the buttons vertically */
+    gap: 5px; /* Space between buttons */
+}
+
+@media (max-width: 576px) {
+    textarea {
+        min-height: 70px;
+        width: 100%; /* Adjust width for smaller screens */
+    }
+
+    .review-buttons {
+        flex-direction: row; /* Buttons will be in a row on smaller screens */
+        gap: 10px;
+    }
+}
+/* Styling for the container h4 with the PDF icon */
+h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the PDF icon inside the link */
+h4 a i.bx.bxs-file-pdf {
+    color: #d32f2f; /* Default red color for the PDF icon */
+    font-size: 24px; /* Adjust icon size */
+    margin-left: 10px;
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the PDF icon */
+h4 a:hover i.bx.bxs-file-pdf {
+    color: #f44336; /* Slightly lighter red on hover */
+    transform: scale(1.2); /* Increase size on hover */
+}
+
+/* Optional: Add hover effect for the entire link, changing the cursor */
+h4 a {
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+}

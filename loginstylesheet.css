@@ -1,0 +1,122 @@
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px; /* Changed from margin to padding for consistent spacing */
+}
+
+.wrapper {
+    width: 350px;
+    background-color: #2c9dda;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    box-shadow: 2px 3px 15px rgba(18, 8, 8, 0.2);
+    color: white;
+    border-radius: 25px;
+    padding: 30px;
+    position: relative;
+    text-align: center; /* Centered text alignment */
+}
+
+.wrapper h1 {
+    font-size: 30px; /* Reduced font size slightly for better balance */
+    margin-bottom: 25px; /* Increased bottom margin for spacing */
+    font-weight: 700;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    padding: 0 25px;
+    color: white;
+    font-size: 16px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Slightly lighter placeholder text */
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7); /* Lighter icon color */
+}
+
+.wrapper .remember {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 10px 0;
+}
+
+.wrapper .remember select {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c9dda;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Added border for consistency */
+    border-radius: 40px; /* Rounded corners for consistency */
+    color: white;
+    font-size: 16px;
+}
+
+.remember a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.8); /* Slightly darker hover color */
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 50px; /* Slightly increased height */
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px; /* Increased font size */
+    color: #333;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Increased margin-top for spacing */
+    transition: background-color 0.3s; /* Added smooth transition */
+}
+
+.wrapper .btn:hover {
+    background-color: #e0e0e0; /* Slightly darker hover effect */
+}
+
+.wrapper .register {
+    font-size: 15px;
+    margin-top: 30px; /* Increased margin-top for spacing */
+}
+
+.register p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}

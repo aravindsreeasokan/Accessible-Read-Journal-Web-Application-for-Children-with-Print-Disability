@@ -1,0 +1,60 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #2c9dda;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #2c9dda;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+.btn-recommend, .delete-btn {
+    background-color: #1e7bb5;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-recommend:hover, .delete-btn:hover {
+    background-color: #2c9dda;
+}
+
+.container {
+    padding: 20px;
+}
+
+.no-students {
+    text-align: center;
+    color: #6c757d;
+    font-size: 18px;
+}
