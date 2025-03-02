@@ -1,7 +1,7 @@
 <?php
 
 function generateBookReview($disabilityType) {
-    $apiKey = 'AIzaSyCBoO8cdangwvhzIJI3l68xt5U2cVC0gnU'; // Replace with your API key
+    $apiKey = 'U'; // Replace with your API key
     $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" . $apiKey;
 
     // Dynamically updated prompt based on the disability type
